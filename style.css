@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+html {
+
+    scroll-behavior: smooth;
+}
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: auto;
+    position: relative;
+
+}
+.cabeca {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 4px solid #fca4bc;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+.logo {
+
+    flex: 20%;
+    /* border: 1px solid green; */
+    margin-left: 10%;
+    text-align: center;
+}
+
+.logo h1 {
+
+    font-family: "Lobster", sans-serif;
+}
+
+.menu {
+
+    flex: 60%;
+    margin-right: 10%;
+    text-align: right;
+    /* border: 1px solid green; */
+    padding: 20px 20px;
+
+}
+
+.menu a {
+
+    text-decoration: none;
+    color: black;
+    font-family: "Lato", sans-serif;
+    padding: 20px 30px;
+    font-size: 15px;
+
+}
+
+.menu a:hover{
+    border-top: 3px solid #fca4bc;
+}
+
+#botao{
+    background-color: #fca4bc;
+    padding: 10px 25px;
+    border-radius: 5px;
+    /* color: #f5deb3; */
+    color: #fff;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    background-color: #9c6171;
+    border: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.conteudo{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 40%;
+    /* border: 1px solid greenyellow; */
+    margin-left: 10%;
+    
+
+}
+
+.conteudo h2{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 12px;
+    padding: 0;
+
+}
+
+#segundo{
+    font-size: 60px;
+    letter-spacing: normal;
+    font-family: "Lobster", sans-serif;
+    color: #fca4bc;
+    margin-bottom: 5%;
+}
+
+.conteudo p{
+    font-size: 18px;
+    color: gray;
+}
+
+.conteudo a {
+
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #fca4bc;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.conteudo a:hover {
+
+    background-color: #9c6171;
+}
+
+.imagem {
+
+    flex: 50%;
+
+}
+
+.imagem img {
+
+    max-width: 100%;
+    max-height: 80vh;
+
+}
+
+section {
+
+    display:inline-block;
+    height: 800px;
+    width: 100%;
+    background-color: #e8dded;
+    /* background-image: linear-gradient(180deg, #9c6171,  #885663,  #784c58); */
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+
+.titulo {
+
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+
+}
+
+.titulo h2 {
+
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+    border-bottom: 2px solid #fff;
+    padding: 20px;
+    
+}
+
+.cards {
+
+    display: flex;
+
+}
+
+.cards-text {
+
+    width: 50%;
+    margin-left: 10%;
+    /* border: 1px solid #fff; */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 3%;
+
+}
+
+.cards-text p {
+
+    color: #9c6171;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+}
+
+iframe {
+
+    margin-top: 20px;
+    max-width:600px ;
+    max-height: 340px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.card {
+
+    flex: 40%;
+    margin-right: 10%;
+    margin-top: 3%;
+
+}
+
+.card img {
+
+    width: 100%;
+    height: 580px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.main {
+
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.titulo-2 {
+
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+
+}
+    
+.titulo-2 h2 {
+
+    color: #fca4bc;
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+    border-bottom: 2px solid #fff;
+    padding: 20px;
+    border-bottom: 2px solid #fca4bc;
+
+}
+
+.catalogo {
+
+    display: flex;
+    margin-top: 2%;
+    height: 1800px;
+    width: 100%;
+    background-color: #fff;
+    flex-flow: row wrap;
+
+}
+
+.servico {
+    display: flex;
+    justify-content: center;
+    background-color: #fca4bc;
+    height: 500px;
+    width: 1300px;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.texto-servico{
+    width: 50%;
+
+}
+.texto-servico h3{
+    margin-top: 10%;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 5%;
+
+}
+.texto-servico p{
+    color: #9c6171;
+    margin: 0 5% 2% 5%;
+    font-size: 17px;
+
+}
+
+.img-servico{
+    width: 50%;
+}
+.img-servico img{
+    width: 100%;
+    height: 500px;
+   
+}
